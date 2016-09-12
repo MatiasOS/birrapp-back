@@ -1,0 +1,28 @@
+{
+  "name": "ingredient",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "name": {
+      "type": "string",
+      "required": true,
+      "default": "noIngredientName"
+    },
+    "value": {
+      "type": "number",
+      "required": true,
+      "default": -1
+    },
+    "description": {
+      "type": "string",
+      "default": "noDesc"
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

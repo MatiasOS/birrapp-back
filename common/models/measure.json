@@ -1,0 +1,29 @@
+{
+  "name": "measure",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "sensor": {
+      "type": "string",
+      "required": true,
+      "default": "noSensorName"
+    },
+    "value": {
+      "type": "number",
+      "required": true,
+      "default": -1
+    },
+    "time": {
+      "type": "date",
+      "required": true,
+      "default": null
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

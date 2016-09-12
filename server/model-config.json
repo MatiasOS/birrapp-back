@@ -12,5 +12,25 @@
       "../common/mixins",
       "./mixins"
     ]
+  },
+  "user": {
+    "dataSource": null,
+    "public": true
+  },
+  "brew": {
+    "dataSource": null,
+    "public": true
+  },
+  "stage": {
+    "dataSource": null,
+    "public": true
+  },
+  "measure": {
+    "dataSource": null,
+    "public": true
+  },
+  "ingredient": {
+    "dataSource": null,
+    "public": true
   }
 }
