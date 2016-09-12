@@ -25,7 +25,18 @@
     }
   },
   "validations": [],
-  "relations": {},
+  "relations": {
+    "measures": {
+      "type": "hasMany",
+      "model": "measure",
+      "foreignKey": ""
+    },
+    "ingredients": {
+      "type": "hasMany",
+      "model": "ingredient",
+      "foreignKey": ""
+    }
+  },
   "acls": [],
   "methods": {}
 }

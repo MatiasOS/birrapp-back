@@ -13,7 +13,13 @@
     }
   },
   "validations": [],
-  "relations": {},
+  "relations": {
+    "brews": {
+      "type": "hasMany",
+      "model": "brew",
+      "foreignKey": ""
+    }
+  },
   "acls": [],
   "methods": {}
 }

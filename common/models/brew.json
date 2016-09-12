@@ -20,7 +20,13 @@
     }
   },
   "validations": [],
-  "relations": {},
+  "relations": {
+    "stages": {
+      "type": "hasMany",
+      "model": "stage",
+      "foreignKey": ""
+    }
+  },
   "acls": [],
   "methods": {}
 }
