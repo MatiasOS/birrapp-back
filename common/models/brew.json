@@ -8,7 +8,7 @@
   "properties": {
     "beerName": {
       "type": "string",
-      "default": ""
+      "default": "noBeerName"
     },
     "startDate": {
       "type": "date",
