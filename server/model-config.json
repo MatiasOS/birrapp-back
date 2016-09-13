@@ -14,23 +14,23 @@
     ]
   },
   "user": {
-    "dataSource": null,
+    "dataSource": "mlab",
     "public": true
   },
   "brew": {
-    "dataSource": null,
+    "dataSource": "mlab",
     "public": true
   },
   "stage": {
-    "dataSource": null,
+    "dataSource": "mlab",
     "public": true
   },
   "measure": {
-    "dataSource": null,
+    "dataSource": "mlab",
     "public": true
   },
   "ingredient": {
-    "dataSource": null,
+    "dataSource": "mlab",
     "public": true
   }
 }

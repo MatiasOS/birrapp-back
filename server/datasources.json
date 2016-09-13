@@ -1,1 +1,16 @@
-{}
+{
+  "db": {
+    "name": "db",
+    "connector": "memory"
+  },
+  "mlab": {
+    "host": "ds147995.mlab.com",
+    "port": 47995,
+    "url": "",
+    "database": "beer",
+    "password": "f4l4c145",
+    "name": "mlab",
+    "user": "master",
+    "connector": "mongodb"
+  }
+}
