@@ -8,6 +8,7 @@
   "properties": {
     "beerName": {
       "type": "string",
+      "required": true,
       "default": "noBeerName"
     },
     "startDate": {
